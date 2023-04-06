@@ -60,7 +60,7 @@ nav a {
     color: #941c2f;
 }
 
-/* MAIN SECTION */
+/* MAIN SECTION - JUMBOTRON */
 
 .container-aqua {
     background-color: #00eee4;
@@ -75,7 +75,7 @@ nav a {
 }
 
 .container-aqua-left h1 {
-    font-size: 40px;
+    font-size: 50px;
     margin-bottom: 20px;
 }
 
@@ -112,10 +112,65 @@ nav a {
 }
 
 
+/* MAIN SECTION - CATALOG */
+
+.container-yellow {
+    background-color: #faff7f;
+    padding: 60px 40px;
+    text-align: center;
+}
+
+.container-yellow h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+
+.card {
+    padding: 20px;
+    width: 30%;
+    background-color: blanchedalmond;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+}
+
+.card img {
+    max-width: 100%;
+    flex: 1;
+}
+
+.card h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.card button {
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 14px;
+    background-color: #d5a0f1;
+    color: #941c2f;
+    font-weight: bold;
+    cursor: pointer;
+}
+
 /* MEDIA QUERIES */
 
 @media (max-width: 768px) {
     .container-aqua {
         flex-direction: column;
+    }
+
+    .card {
+        width: 100%;
+        margin-bottom: 40px;
     }
 }
