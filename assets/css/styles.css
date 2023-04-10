@@ -97,13 +97,17 @@ nav a {
     font-weight: bold;
     cursor: pointer;
     margin-top: 30px;
+    padding: 16px;
     font-size: 20px;
     font-family: 'Signika Negative', sans-serif;
+    border-radius: 20px;
 }
 
 .container-lavender form button {
     margin-top: 0;
     font-size: 18px;
+    border-radius: 10px;
+    padding: 10px;
 }
 
 .container-lavender img {
@@ -115,14 +119,14 @@ nav a {
 }
 
 .container-lavender-text {
-    padding: 30px;
+    padding: 50px 30px 80px;
 }
 
 /* MAIN SECTION - CATALOG */
 
 .container-aqua {
     background-color: #a5dce9;
-    padding: 60px 40px;
+    padding: 60px 40px 100px;
     text-align: center;
 }
 
@@ -159,8 +163,8 @@ nav a {
 .card button {
     margin-top: 20px;
     padding: 10px;
-    border: none;
-    border-radius: 10px;
+    border: dotted #2f2f2f;
+    border-radius: 20px;
     font-size: 18px;
     font-family: 'Signika Negative', sans-serif;
     background-color: #a88dd1;
@@ -169,15 +173,65 @@ nav a {
     cursor: pointer;
 }
 
+/* FOOTER */
+
+.footer-container {
+    background-color: #a5dce9;
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: #555;
+}
+
+.footer-column {
+    margin-bottom: 20px;
+    padding: 20px;
+    width: 25%;
+}
+
+.footer-column h4 {
+    margin-bottom: 20px;
+}
+
+.footer-column a {
+    display: block;
+    color: #555;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+.social-media a {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-credits {
+    text-align: center;
+    background-color: #a5dce9;
+    padding: 0px 40px 40px;
+    color: #777;
+}
+
+.footer-credits a {
+    color: #a88dd1;
+    text-decoration: none;
+}
+
+
 /* MEDIA QUERIES */
 
 @media (max-width: 768px) {
-    .container-lavender {
+    .container-lavender, .footer-container {
         flex-direction: column;
     }
 
     .card {
         width: 100%;
         margin-bottom: 40px;
+    }
+
+    .footer-column {
+        width: 100%;
     }
 }
