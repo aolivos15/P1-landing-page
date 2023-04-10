@@ -69,48 +69,54 @@ nav a {
     align-items: center;
 }
 
-.container-lavender-left {
-    flex: 1;
-    padding: 30px;
-}
-
-.container-lavender-left h1 {
+.container-lavender h1 {
     font-size: 50px;
     margin-bottom: 20px;
 }
 
-.container-lavender-left form {
+.container-lavender form {
     display: flex;
     margin-top: 40px;
 }
 
-.container-lavender-left input {
+.container-lavender input {
     width: 100%;
     margin-right: 10px;
 }
 
-.container-lavender-left input, .container-lavender-left button {
+.container-lavender input, .container-lavender button {
     padding: 10px;
     border: none;
     border-radius: 10px;
     font-size: 14px;
 }
 
-.container-lavender-left button {
+.container-lavender button {
     background-color: #f7e8a4;
     color: #2f2f2f;
     font-weight: bold;
     cursor: pointer;
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: 'Signika Negative', sans-serif;
 }
 
-.container-lavender-right {
-    flex: 1;
+.container-lavender form button {
+    margin-top: 0;
+    font-size: 18px;
 }
 
-.container-lavender-right img {
+.container-lavender img {
     max-width: 100%;
 }
 
+.container-lavender-img, .container-lavender-text {
+    flex: 1;
+}
+
+.container-lavender-text {
+    padding: 30px;
+}
 
 /* MAIN SECTION - CATALOG */
 
@@ -155,7 +161,8 @@ nav a {
     padding: 10px;
     border: none;
     border-radius: 10px;
-    font-size: 14px;
+    font-size: 18px;
+    font-family: 'Signika Negative', sans-serif;
     background-color: #a88dd1;
     color: #2f2f2f;
     font-weight: bold;
