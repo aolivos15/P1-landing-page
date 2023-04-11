@@ -61,6 +61,13 @@ nav a {
     color: #2f2f2f;
 }
 
+.hamburger {
+    display: none;
+    align-self: center;
+    font-size: 24px;
+    margin-left: 30px;
+}
+
 /* MAIN SECTION - JUMBOTRON */
 
 .container-lavender {
@@ -221,7 +228,22 @@ nav a {
 
 /* MEDIA QUERIES */
 
+@media (max-width: 480px) {
+    .navbar-title {
+        font-size: 20px;
+        margin-right: 30px;
+    }
+}
+
 @media (max-width: 768px) {
+    .navbar-right {
+        display: none;
+    }
+
+    .hamburger {
+        display: inline-block;
+    }
+
     .container-lavender, .footer-container {
         flex-direction: column;
     }
