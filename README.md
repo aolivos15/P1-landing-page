@@ -28,6 +28,6 @@ The images used in this project are from the following sources:
 * [Yarn](https://pixabay.com/es/photos/lana-tienda-pasatiempo-artesan%c3%ada-2742119/) - by [Skitterphoto](https://pixabay.com/es/users/skitterphoto-324082/) on [Pixabay](https://pixabay.com)
 * [Embroidery thread](https://unsplash.com/photos/4J1sjmMr0Ro) - by [Mel Poole](https://unsplash.com/@melpoole) on [Unsplash](https://unsplash.com)
 * [Crocheting accessories](https://unsplash.com/photos/9rStyyFGKQA) - by [Edz Norton](https://unsplash.com/@edznorton) on [Unsplash](https://unsplash.com)
-* [Amigurumi](https://aolivos15.github.io/P1-landing-page/) - by [Andrea Olivos](https://github.com/aolivos15)
+* [Amigurumi](https://aolivos15.github.io/P1-landing-page/) - by [Andrea Olivos B](https://github.com/aolivos15)
 
 
