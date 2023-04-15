@@ -6,9 +6,9 @@ This is a landing page for a ficticious business called "Corazón de Frutilla", 
 
 ## Screenshots
 
-![Landing page image 1](assets/img/screen-capture-1.png "Landing page - Header and Jumbotron")
-![Landing page image 2](assets/img/screen-capture-2.png "Landing page - Catalog")
-![Landing page image 3](assets/img/screen-capture-3.png "Landing page - Footer")
+![Landing page image 1](assets/img/screenshot-1.png "Landing page - Header and Jumbotron")
+![Landing page image 2](assets/img/screenshot-2.png "Landing page - Catalog")
+![Landing page image 3](assets/img/screenshot-3.png "Landing page - Footer")
 
 ## Built with
 
